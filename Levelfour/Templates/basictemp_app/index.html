@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+{% extends "basictemp_app/base.html"%}
+  {% block body_block %}
+    <h1>Welcome to the Index page</h1>
+    <h1>{{text|cut:'is'}}</h1>
+    <h1>{{number| add:"3"}}</h1>
+{% endblock %}
